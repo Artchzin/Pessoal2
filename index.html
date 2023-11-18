@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>M4RTCH</title>
+</head>
+
+<body>
+    <div class="container">
+        <section id="header">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="#">M<span>4</span>RTCH</a>
+                </div>
+                <div class="nav-menu">
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="https://wa.link/nxwphq">Contact</a></li>
+                        <ion-icon class="fa-solid fa-xmark" onclick="closeMenu()" name="close-outline"></ion-icon>
+                    </ul>
+                    <ion-icon class="fa-solid fa-bars" onclick="openMenu()" name="reorder-four-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="bottom-left">
+                    <h1 class="name"> Arthur <span>Thierry</span></h1>
+                    <h3 class="profession">Front-end Web Developer</h3>
+                    <p class="short-desc">I'm a programming enthusiast with almost a year of experience in HTML and CSS, forming a solid foundation for web development. Currently, I'm expanding my skills with Node.js and React to create high-performance web applications</p>
+                </div>
+                <div class="bottom-right">
+                    <a href="https://github.com/Artchzin"><ion-icon name="logo-github" ></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/arthur-thierry-24551a294/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="mailto:arthuzinhothierryenunesramos@gmail.com?subject=Trabalho"><ion-icon name="mail-outline"></ion-icon></a>
+                    <a href="https://api.whatsapp.com/send?phone=5581983180498&text=Ol%C3%A1,%20sou%20programador%20front%20end%20e%20o%20responderei%20o%20mais%20r%C3%A1pido%20poss%C3%ADvel"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                </div>
+            </div>
+
+        </section>
+            </div>
+           <section id="about">
+            <div class="about-left">
+                <img style="max-width: 100%;" src="imagem/WhatsApp Image 2023-11-12 at 02.53.21.jpg" alt="">
+                </div>
+            <div class="about-right">
+                <div class="section-title">
+                    <h2 class="sub-title">About Me</h2>
+                    <h3 class="title">Web Developer</h3>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magnam ea, eos repellendus omnis in, itaque sed cum illum quidem velit sunt molestias? Magnam ipsam voluptatibus assumenda, commodi esse error.</p> 
+                </div>     
+           
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                <p class="tab-links" onclick="openTab('experience')">Experiencie</p>
+                <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            
+            
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li>
+                        <span>Function</span> <br>
+                        Developer Web/App interfaces
+                    </li>
+                    <li>
+                        <span>Interative Pages</span> <br>
+                        pages interatives/ hover
+                    </li>
+                    <li>
+                        <span>Web Site</span> <br>
+                        Buildind sites/Ecommerces/ landing pages
+                    </li></ul>
+            </div>
+
+
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li>
+                        <span>Html/CSS</span> <br>
+                        One year 
+                    </li>
+                    <li>
+                        <span>javaScript</span> <br>
+                        one year
+                    </li>
+                    <li>
+                        <span>React/node.js</span> <br>
+                        one year
+                    </li></ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li>
+                        <span>Grau-tec</span> <br>
+                        One year 
+                    </li>
+                    <li>
+                        <span>Udemy.com</span> <br>
+                        one year
+                    </li>
+                    </div>
+           </section>
+           <section id="services">
+            <div class="title-service">
+                <h2>SERVICES</h2>
+            </div>
+            <div class="cards-services">
+
+
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <p class="title">Landing-Page</p>
+                            <p>Creation of landing pages with responsiveness interactivity</p>
+                        </div>
+                        <div class="backSide">
+                            <p class="title">USD $</p>
+                            <p>1.000,00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <p class="title">Web-Site</p>
+                            <p>Web sites with interactive design, responsiveness and customer references</p>
+                        </div>
+                        <div class="backSide">
+                            <p class="title">USD $</p>
+                            <p>2.038,00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <p class="title">E-commerce</p>
+                            <p>Attractive and responsive online stores</p>
+                        </div>
+                        <div class="backSide">
+                            <p class="title">USD $</p>
+                            <p>3.057,00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+           </section>
+                    
+            <script src="main.js"></script>
+            </div>
+            </section>
+
+
+    </div>
+</body>
+
+</html>
